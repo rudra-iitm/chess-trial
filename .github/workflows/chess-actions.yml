@@ -18,5 +18,4 @@ jobs:
           issue_number: ${{ github.event.issue.number }}
           repository_owner: ${{ github.repository_owner }}
           repository_name: ${{ github.repository }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
