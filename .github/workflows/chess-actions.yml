@@ -19,6 +19,5 @@ jobs:
         uses: rudra-iitm/chess-actions@main
         with:
           issue_number: ${{ github.event.issue.number }}
-          repository_owner: ${{ github.repository_owner }}
           repository_name: ${{ github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
