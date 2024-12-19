@@ -11,6 +11,8 @@ on:
 jobs:
   play-chess:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,6 +20,4 @@ jobs:
       - name: Use Play Chess Action
         uses: rudra-iitm/chess-actions@main
         with:
-          issue_number: ${{ github.event.issue.number }}
-          repository_name: ${{ github.repository }}
           token: ${{ secrets.GITHUB_TOKEN }}
