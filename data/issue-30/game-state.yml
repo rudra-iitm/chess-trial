@@ -1,4 +1,4 @@
-previousFen: r2qkbnr/pp4pp/n1P5/4pp2/6bP/3B1N2/PPPP1PP1/RNBQK2R w KQkq - 1 7
+previousFen: r2qkbnr/ppP3pp/n7/4pp2/6bP/3B1N2/PPPP1PP1/RNBQK2R b KQkq - 0 7
 mainThread: 2555588148
 processedComments:
   - 2555588148
@@ -30,6 +30,7 @@ processedComments:
   - 2555633039
   - 2555635236
   - 2555639927
+  - 2555640933
 moves:
   - from: e2
     to: e4
@@ -67,6 +68,9 @@ moves:
   - from: b8
     to: a6
     playedBy: im0vishal
+  - from: c6
+    to: c7
+    playedBy: rudra-iitm
 players:
   white: rudra-iitm
   black: im0vishal
