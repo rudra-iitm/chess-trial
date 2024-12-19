@@ -1,7 +1,12 @@
-previousFen: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+previousFen: rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1
 mainThread: 2555487288
-processedComments: []
-moves: []
+processedComments:
+  - 2555487288
+  - 2555491584
+moves:
+  - from: a2
+    to: a4
+    playedBy: rudra-iitm
 players:
   white: rudra-iitm
   black: ''
